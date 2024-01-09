@@ -11,6 +11,6 @@ route.post("/create", create );
 route.get("/getall", getall);
 route.get("/getone/:id",getone);
 route.put("/update/:id",update)
-route.delete("/delete/:id",deleteUser);
+route.delete("/delete/:id", deleteUser);
  
 export default route;

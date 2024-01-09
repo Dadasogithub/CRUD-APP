@@ -1,0 +1,53 @@
+.userTable{
+    width: 60%;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgb(0, 0, 0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+.Addbutton{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(42, 52, 165);
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+
+.userTable table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse:collapse ;
+}
+
+.userTable table thead th{
+    background-color: rgb(42, 52, 165);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.userTable table tbody td{
+    padding: 10px;
+    text-align: center;
+}
+.actionButton button{
+    border:0;
+    outline: none;
+    background-color: red;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.actionButton a{
+    border:0;
+    outline: none;
+    background-color: greenyellow;
+    color: black;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 10px;
+}
